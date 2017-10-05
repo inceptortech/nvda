@@ -1821,6 +1821,62 @@ A percentage of sales of this product is donated to NV Access to fund further de
 + Supported Braille Displays +[SupportedBrailleDisplays]
 This section contains information about the Braille displays supported by NVDA.
 
+++ Inceptor Technology BrailleMe ++
+
+NVDA support BrailleMe Display when connected via USB cable.
+
+For windows 7, you will need the Inceptor technology braille display drivers installed on your system.
+For windows 8 and above no external driver is needed. 
+
+Following are the key assignments for these displays with NVDA.
+Please see the display's documentation for descriptions of where these keys can be found.
+%kc:beginInclude
+|| Name | Key |
+| Scroll braille display back | rightup |
+| Scroll braille display forward | rightdown |
+| Move braille display to previous line | leftup |
+| Move braille display to next line | leftdown |
+| Route to braille cell | routing |
+| shift+tab key | space+dot4+dot5 |
+| alt key | Space+dot2 |
+| escape key | Space+dot1+dot2+dot3+dot4+dot5+dot6 |
+| tab key | Space+dot5 |
+| upArrow key | Space+leftup |
+| downArrow key | Space+leftdown |
+| capsLock | back+enter |
+| shift+alt+tab key | space+dot2+dot4+dot5 |
+| alt+tab key | space+dot2+dot5 |
+| end key | space+dot6+enter |
+| Control+end key | space+dot1+dot6+enter |
+| home key | space+dot3+enter |
+| control+home key | space+dot1+dot3+enter |
+| leftArrow key | space+rightup |
+| control+shift+leftArrow key | space+dot1+dot4+rightup |
+| control+leftArrow key | space+dot1+rightup |
+| shift+alt+leftArrow key | space+dot2+dot4+rightup |
+| alt+leftArrow key | space+dot2+rightup |
+| rightArrow key | space+rightdown |
+| control+shift+rightArrow key | space+dot1+dot4+rightdown |
+| control+rightArrow key | space+dot1+rightdown |
+| shift+alt+rightArrow key | space+dot2+dot4+rightdown |
+| alt+rightArrow key | space+dot2+rightdown |
+| pageUp key | space+dot3 |
+| control+pageUp key | space+dot1+dot3 |
+| control+shift+upArrow key | space+dot1+dot4+leftup |
+| control+upArrow key | space+dot1+leftup |
+| shift+alt+upArrow key | space+dot2+dot4+leftup |
+| alt+upArrow key | space+dot2+leftup |
+| shift+upArrow key | space+dot4+leftup |
+| pageDown key | space+dot6 |
+| control+pagedown key | space+dot1+dot6 |
+| control+shift+downArrow key | space+dot1+dot4+leftdown |
+| control+downArrow key | space+dot1+leftdown |
+| shift+alt+downArrow key | space+dot2+dot4+leftdown |
+| alt+downArrow key | space+dot2+leftdown |
+| shift+downArrow key | space+dot4+leftdown |
+| delete key | space+enter |
+%kc:endInclude
+
 ++ Freedom Scientific Focus/PAC Mate Series ++
 All Focus and PAC Mate displays from [Freedom Scientific http://www.freedomscientific.com/] are supported when connected via USB or bluetooth.
 You will need the Freedom Scientific braille display drivers installed on your system.

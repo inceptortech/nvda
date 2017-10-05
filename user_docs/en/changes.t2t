@@ -14,7 +14,7 @@ What's New in NVDA
 - Added support for Azardi e-book reader. (#5848)
 - Version information for addons is now reported when being updated. (#5324)
 - Added support for new command line parameters to create a portable copy of NVDA. (#6329)
-
+- NVDA can now connect to a Inceptor Technology BrailleMe display through USB.
 
 == Changes ==
 - The minimum supported Operating System for NVDA is now Windows 7 with Service Pack 1, or Windows Server 2008 R2 with Service Pack 1. (#7546)
